@@ -1,3 +1,6 @@
+
+
+
 def summarize_text(text):
     """
     Returns a simple summary of the input text:
