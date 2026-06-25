@@ -204,5 +204,5 @@ with tab_docs:
                 if cols[1].button("Delete", key=f"del_{row['id']}"):
                     delete_document(row["id"], st.session_state.user["id"])
                     st.success(f"Deleted document #{row['id']}")
-                    st.experimental_rerun()
+                    st.rerun()
                     
